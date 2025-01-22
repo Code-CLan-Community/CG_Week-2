@@ -1,5 +1,5 @@
 class BankAccount {
-    static String bankName ="ABV";
+    static String bankName ="VR Finance & Banking";
     String accountHolderName;
     final String accountNumber;
     static int total = 0; 

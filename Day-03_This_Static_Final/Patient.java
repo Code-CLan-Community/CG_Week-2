@@ -30,8 +30,8 @@ public class Patient {
         }
     }
     public static void main(String[] args) {
-        Patient patient1 = new Patient("John Doe", 45, "Fever", 101);
-        Patient patient2 = new Patient("Jane Smith", 30, "Cold", 102);
+        Patient patient1 = new Patient("Neeraj", 45, "Fever", 101);
+        Patient patient2 = new Patient("Abhishek", 30, "Cold", 102);
         getTotalPatients(); // Display total patients
         patient1.displayPatientDetails(); // Show patient 1 details
         patient2.displayPatientDetails(); // Show patient 2 details

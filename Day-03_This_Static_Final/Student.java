@@ -48,8 +48,8 @@ public class Student {
 
     public static void main(String[] args) {
         // Creating student objects
-        Student student1 = new Student("John Doe", 101, "A");
-        Student student2 = new Student("Jane Smith", 102, "B");
+        Student student1 = new Student("Veer", 101, "A");
+        Student student2 = new Student("Arpit", 102, "B");
         //Display University Name
         displayUniversityName();
         // Display total students

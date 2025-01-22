@@ -27,14 +27,14 @@ public class Vehicle {
             System.out.println("Owner Name: " + ownerName);
             System.out.println("Vehicle Type: " + vehicleType);
             System.out.println("Registration Number: " + registrationNumber);
-            System.out.println("Registration Fee: $" + registrationFee);
+            System.out.println("Registration Fee: " + registrationFee);
         }
     }
 
     public static void main(String[] args) {
         // Creating vehicle objects
-        Vehicle vehicle1 = new Vehicle("John Doe", "Car", "ABC123");
-        Vehicle vehicle2 = new Vehicle("Jane Smith", "Motorcycle", "XYZ456");
+        Vehicle vehicle1 = new Vehicle("Veer", "Car", "ABC123");
+        Vehicle vehicle2 = new Vehicle("Dhruv", "Motorcycle", "XYZ456");
 
         // Displaying initial registration details for both vehicles
         System.out.println("\nVehicle 1 Registration Details:");
